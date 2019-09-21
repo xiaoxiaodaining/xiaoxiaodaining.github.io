@@ -4,14 +4,10 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="大三生活日志, 小呆欢迎你">
-    <meta name="description" content="记录每天的行程告诫自己2019年9月20日
-
-日常上课，java课作业还没写
-学习了makedown格式的编写，也算是学到了东西（ -^- ）
-很是羞愧逆波兰的计算机又没写
-hexo的博客进行了小的更新，还是没把功能写全，懒真的可怕
-又打l">
+    <meta name="keywords" content="interpy的读书笔记, 小呆欢迎你">
+    <meta name="description" content="这是一本开源书籍的读书笔记，其实是迷茫的我没方向随便看的书
+args和*kwargs的使用其实学过只要学过c语言对这个两个参数一个不陌生。
+123int main(int argc , char *argv)&amp;#123;    return">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +15,7 @@ hexo的博客进行了小的更新，还是没把功能写全，懒真的可怕
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>大三生活日志 | 小呆欢迎你</title>
+    <title>interpy的读书笔记 | 小呆欢迎你</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -268,13 +264,13 @@ hexo的博客进行了小的更新，还是没把功能写全，懒真的可怕
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        大三生活日志
+                        interpy的读书笔记
                     </div>
                 </div>
             </div>
@@ -396,7 +392,7 @@ hexo的博客进行了小的更新，还是没把功能写全，懒真的可怕
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2019-09-20
+                    2019-09-21
                 </div>
 
                 
@@ -412,16 +408,27 @@ hexo的博客进行了小的更新，还是没把功能写全，懒真的可怕
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="记录每天的行程告诫自己"><a href="#记录每天的行程告诫自己" class="headerlink" title="记录每天的行程告诫自己"></a>记录每天的行程告诫自己</h2><h4 id="2019年9月20日"><a href="#2019年9月20日" class="headerlink" title="2019年9月20日"></a>2019年9月20日</h4><hr>
-<ul>
-<li>日常上课，java课作业还没写</li>
-<li>学习了makedown格式的编写，也算是学到了东西（ -^- ）</li>
-<li>很是羞愧逆波兰的计算机又没写</li>
-<li>hexo的博客进行了小的更新，还是没把功能写全，懒真的可怕</li>
-<li>又打lol，很是羞愧，考研还是尽放空屁，依旧是条咸鱼羞愧</li>
-<li>又忘了github的密码，很是羞愧</li>
-</ul>
-<hr>
+                <h3 id="这是一本开源书籍的读书笔记，其实是迷茫的我没方向随便看的书"><a href="#这是一本开源书籍的读书笔记，其实是迷茫的我没方向随便看的书" class="headerlink" title="这是一本开源书籍的读书笔记，其实是迷茫的我没方向随便看的书"></a>这是一本开源书籍的读书笔记，其实是迷茫的我没方向随便看的书</h3><hr>
+<h4 id="args和-kwargs的使用"><a href="#args和-kwargs的使用" class="headerlink" title="args和*kwargs的使用"></a><em>args和*</em>kwargs的使用</h4><p>其实学过只要学过c语言对这个两个参数一个不陌生。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc , <span class="keyword">char</span> *argv)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>是不是很熟悉(- | -)</p>
+</blockquote>
+<p>当然c语言中argc 和**argv的作用是为了传入命令行的参数，argc是参数的数量，argv是参数的名称。</p>
+<p>在python中一个方法想要传入多个参数，就可以通过*args来实现</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">test_mang</span><span class="params">(firstargs,*args)</span>：</span></span><br><span class="line"><span class="function">    <span class="title">print</span><span class="params">(<span class="string">"&#123;&#125;"</span>.format<span class="params">(firstargs)</span>)</span></span></span><br><span class="line"><span class="function">    <span class="title">for</span> <span class="title">arg</span> <span class="title">in</span> *<span class="title">args</span>:</span></span><br><span class="line">        printf(<span class="string">"&#123;&#125;"</span>.format(arg))</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>这样就能传入多个参数</p>
+</blockquote>
+<p>想要传入键值是通过，因为python有字典结构。<br>传入方式</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">test_key_value</span><span class="params">(**kwargs)</span>:</span></span><br><span class="line">    <span class="keyword">for</span> a , b <span class="keyword">in</span> kwargs.items():</span><br><span class="line">        print(<span class="string">"&#123;&#125;&#123;&#125;"</span>.format(a).format(b)))</span><br></pre></td></tr></table></figure>
+
+<p>应用场景，我个人用过的是传入字典等类型通过，<em>args和*</em>wargs组合<br>interpy里面写更多的用法是进行类的测试的使用</p>
+<blockquote>
+<p>可能是python用的少没什么体会（O_O）</p>
+</blockquote>
 
             </div>
             <hr/>
@@ -580,9 +587,9 @@ hexo的博客进行了小的更新，还是没把功能写全，懒真的可怕
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《大三生活日志》
+                    《interpy的读书笔记》
                 </span> by
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/09/20/大三生活日志/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/09/21/interpy的读书笔记/" property="cc:attributionName"
                rel="cc:attributionURL">
                 戴 宁
             </a> is licensed under a
@@ -626,21 +633,25 @@ hexo的博客进行了小的更新，还是没把功能写全，懒真的可怕
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2019/09/21/interpy的读书笔记/">
+                <a href="/2019/09/21/hexoo踩坑记/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="interpy的读书笔记">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="hexo踩坑记">
                         
-                        <span class="card-title">interpy的读书笔记</span>
+                        <span class="card-title">hexo踩坑记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            这是一本开源书籍的读书笔记，其实是迷茫的我没方向随便看的书
-args和*kwargs的使用其实学过只要学过c语言对这个两个参数一个不陌生。
-123int main(int argc , char *argv)&#123;    return
+                            日常的错误更新2019年9月20日
+如果不更新博客头部的date的文件
+1hexo g
+
+不会去重新生成blog文件
+
+2019年9月21日不知道是git的bug还是hexo的bug,在上传过博客,要关闭gitbash，不然chrom打不开
                         
                     </div>
                     <div class="publish-info">
@@ -665,33 +676,25 @@ args和*kwargs的使用其实学过只要学过c语言对这个两个参数一�
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/09/20/make的使用入门/">
+                <a href="/2019/09/20/大三生活日志/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="makedown的使用入门">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="大三生活日志">
                         
-                        <span class="card-title">makedown的使用入门</span>
+                        <span class="card-title">大三生活日志</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            一级标题二级标题三级标题四级标题五级标题六级标题makedown  一共六级标题
+                            记录每天的行程告诫自己2019年9月20日
 
-这是引用这还是引用这还真的是引用
-
-插入连接xiaodai
-插入图片
-无序列表
-quas
-wex
-exort
-
-有序列表
-Buring
-Music 
-hel
+日常上课，java课作业还没写
+学习了makedown格式的编写，也算是学到了东西（ -^- ）
+很是羞愧逆波兰的计算机又没写
+hexo的博客进行了小的更新，还是没把功能写全，懒真的可怕
+又打l
                         
                     </div>
                     <div class="publish-info">
